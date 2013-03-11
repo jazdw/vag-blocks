@@ -1,4 +1,4 @@
-vag-blocks
+VAG Blocks
 ==========
 
 VAG Blocks is beta open source (GPLv3) software for reading VAG group specific measuring blocks from an OBD-II port using an inexpensive ELM327 type adapter. Both Bluetooth and USB adapters have been tested on Windows & Linux. Sample rates of up to 12 samples per second have been achieved.
@@ -10,3 +10,8 @@ You will need a label file for each module to determine what the values mean. Wi
 Currently the communication protocol is unstable and the software is still in beta phase. The ELM327 is designed for reading OBD-II PIDs and its raw CAN mode is limited which makes implementing VW TP 2.0 difficult.
 
 For more information please see http://jazdw.net/vag-blocks/
+
+Compiling
+==========
+Compile with Qt 4.7+ (Project file included)
+Link against Qwt - http://qwt.sourceforge.net/ and QtSerialPort - http://qt-project.org/wiki/QtSerialPort
