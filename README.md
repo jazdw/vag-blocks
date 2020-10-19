@@ -15,3 +15,5 @@ Compiling
 ==========
 Compile with Qt 4.7+ (Project file included)
 Link against Qwt - http://qwt.sourceforge.net/ and QtSerialPort - http://qt-project.org/wiki/QtSerialPort
+
+See build.md for more detailed build information
